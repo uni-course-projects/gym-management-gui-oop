@@ -38,7 +38,10 @@ Course: *Object Oriented Programming (OOP)*
 ## Project Structure
 
 ```plaintext
+
+nbproject/             → NetBeans-specific project configuration files
 src/main/              → All .java and .form files (main source code and GUI layout)
+(.form files)          → GUI layout designed in NetBeans Swing builder
 src/main/assets/       → All image resources used in the GUI (icons, backgrounds, products)
 members.txt            → Stores gym member registration data
 bookings.txt           → Stores user session/trainer bookings
@@ -55,8 +58,8 @@ README.md              → This file
 
 ### ✅ In NetBeans
 1. Open the project folder in NetBeans.
-2. Clean and Build the project using `Shift + F11`.
-3. Run the application using `F6`.
+2. Clean and Build the project using `Shift + F11`. (Ant will handle the build via `build.xml`).
+3. Run the project from the main class: `oopproject.java`.
 
 ### ✅ In VS Code / Terminal
 
